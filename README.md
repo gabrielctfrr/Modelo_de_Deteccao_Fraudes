@@ -84,6 +84,17 @@ Como nosso dataset não tem um desbalanceamento alto, optei por não usar SMOTE,
 
 ## Resultados 
 
+Como esperado, **Random Forest** teve desemepenho superior ao **Logistic Regreesion**
+
+Podemos comparar os resultados através das métricas atingidas pelos modelos:
+
+ Modelo | AUC | Precision | Recall | F1-Score | Accuracy
+:---: | :---: | :---: | :---: | :---: | :---:  
+Logistic Regresion |0.9439|0.5816|0.9534|0.7225|0.9360 
+Random Forest |0.9999|1.0|0.9999|0.9999|0.9999 
+
+Com isso, podemos concluir que a escolha ideal de modelo, seria a de **Random Forest**
+
 ## Plano de deploy e monitoramento
 
 Temos um modelo que prever fraudes em transações com cartão, então temos um modelo que precisa está no ar o tempo todo. Por ter essas características de precisar está no ar o tempo todo, podemos subir esse modelo em Docker. Para fazer isso, podemos usar uma API que recebe os dados em formato JSON e retorna a saída do modelo. Podemos fazer várias instâncias da API com vários modelos no ar para aguentar o tranco de muitas requisições ao mesmo tempo. 
