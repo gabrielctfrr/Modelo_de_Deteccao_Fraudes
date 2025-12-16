@@ -1,4 +1,4 @@
-# Teste Técnico | Data Scientist (VOM)
+# Modelo de Detecção de Fraude em Transações de Cartão
 
 # Índice 
 * [Contexto do Problema](#contexto-do-problema)
@@ -10,7 +10,7 @@
 
 
 ## Contexto do Problema
-A VOM oferece um motor de decisão low-code para apoir empresas na criação e evolução de políticas de decisão automatizadas. Neste teste técnico foi desenvolvido um modelo de detecção de fraude em transações de cartão.
+Neste projeto foi desenvolvido um modelo de detecção de fraude em transações de cartão.
 
 ## Objetivos
 * Realizar uma Análise Exploratória de Dados 
