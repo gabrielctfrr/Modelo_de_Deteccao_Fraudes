@@ -1,4 +1,5 @@
 # Modelo de Detecção de Fraude em Transações de Cartão
+![label](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
 
 # Índice 
 * [Contexto do Problema](#contexto-do-problema)
