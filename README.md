@@ -47,7 +47,7 @@ O projeto foi estruturado seguindo as etapas do **CRISP-DM**:
 5. Avaliação                 →  Comparação por AUC, Recall e F1
 6. Deploy                    →  Proposta de arquitetura com API + Docker
 ```
-## 🔍 Destaques da Análise
+##  Destaques da Análise
  
 ### Engenharia de Feature: `risk_score`
  
@@ -81,7 +81,7 @@ Optou-se por `class_weight='balanced'` em vez de SMOTE pelos seguintes motivos:
  
 ---
  
-## 📊 Resultados
+##  Resultados
  
 | Modelo | AUC | Precision | Recall | F1-Score | Accuracy |
 |---|---|---|---|---|---|
@@ -94,7 +94,7 @@ O Random Forest superou amplamente a Regressão Logística em todas as métricas
  
 ---
  
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
  
 ```
 fraud-detection-ml/
@@ -111,7 +111,7 @@ fraud-detection-ml/
  
 ---
  
-## ⚙️ Como Executar
+##  Como Executar
  
 ### Pré-requisitos
  
@@ -139,7 +139,7 @@ jupyter notebook notebooks/deteccao_fraudes.ipynb
  
 ---
  
-## 🚀 Plano de Deploy
+##  Plano de Deploy
  
 O modelo requer operação em **tempo real**, com baixa latência e alta disponibilidade. A arquitetura proposta considera:
  
@@ -150,7 +150,7 @@ O modelo requer operação em **tempo real**, com baixa latência e alta disponi
  
 ---
  
-## 🔭 Próximos Passos
+##  Próximos Passos
  
 - [ ] Implementar a API REST com FastAPI
 - [ ] Containerizar com Docker
