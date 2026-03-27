@@ -6,7 +6,7 @@
 
 Solução de Machine Learning para classificação de transações fraudulentas em cartão de crédito, estruturada sob a metodologia CRISP-DM. O projeto abrange desde a análise exploratória até a proposta de deploy em produção.
 
-## 📋 Índice
+## Índice
  
 - [Contexto do Problema](#contexto-do-problema)
 - [Objetivo](#objetivo)
@@ -61,7 +61,7 @@ A partir das 4 variáveis categóricas do dataset, foram mapeadas **16 combinaç
 | Inserção + senha | ~0% |
 | Contactless + senha | 0% |
  
-> 💡 Transações online de clientes novos sem autenticação apresentam **2x mais risco** que clientes recorrentes na mesma modalidade.
+>  Transações online de clientes novos sem autenticação apresentam **2x mais risco** que clientes recorrentes na mesma modalidade.
  
 Com base nessas taxas, foi criada a feature `risk_score` com 4 níveis:
  
@@ -160,13 +160,13 @@ O modelo requer operação em **tempo real**, com baixa latência e alta disponi
  
 ---
  
-## 🛠️ Tecnologias
+##  Tecnologias
  
 `Python` `Pandas` `NumPy` `Scikit-learn` `Matplotlib` `Seaborn` `Jupyter Notebook`
  
 ---
  
-## 👤 Autor
+##  Autor
  
 **Gabriel Ferreira**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-gabrielctfrr-blue?logo=linkedin)](https://linkedin.com/in/gabrielctfrr)
