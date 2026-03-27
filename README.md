@@ -88,8 +88,10 @@ Optou-se por `class_weight='balanced'` em vez de SMOTE pelos seguintes motivos:
 | Regressão Logística | 0.9439 | 0.5816 | 0.9534 | 0.7225 | 0.9360 |
 | **Random Forest** | **0.9999** | **1.0000** | **0.9999** | **0.9999** | **0.9999** |
 
-![Matriz de Confusão](images/confusion_matrix.png)
-![Curva ROC](images/roc_curve.png)
+<p align="center">
+  <img src="images/confusion_matrix.png" width="45%"/>
+  <img src="images/roc_curve.png" width="45%"/>
+</p>
  
 ✅ **Modelo escolhido: Random Forest**
  
