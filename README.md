@@ -8,7 +8,7 @@
 
 # Índice 
 * [Contexto do Problema](#contexto-do-problema)
-* [Objetivos](#objetivos)
+* [Objetivos](#objetivo)
 * [Como Executar](#como-executar)
 * [Decisões Técnica](#decisões-técnicas)
 * [Resultados](#resultados)
@@ -16,9 +16,9 @@
 
 
 ## Contexto do Problema
-Neste projeto foi desenvolvido um modelo de detecção de fraude em transações de cartão.
+Fraudes em transações de cartão representam um problema crítico para instituições financeiras. Identificar transações fraudulentas em tempo real — sem comprometer transações legítimas — exige modelos preditivos robustos, capazes de lidar com dados altamente desbalanceados e de operar com baixa latência.
 
-## Objetivos
+## Objetivo
 * Realizar uma Análise Exploratória de Dados 
 * Criar features que traduzam regras de negócio e anomalias de segurança
 * Treinar e comparar modelos de Machine Learning 
