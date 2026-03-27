@@ -1,5 +1,10 @@
 # Modelo de Detecção de Fraude em Transações de Cartão
 ![label](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![labe](https://img.shields.io/badge/Scikit--learn-1.3+-orange?logo=scikit-learn&logoColor=white)
+![labe](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
+![labe](https://img.shields.io/badge/Metodologia-CRISP--DM-blueviolet)
+
+
 
 # Índice 
 * [Contexto do Problema](#contexto-do-problema)
