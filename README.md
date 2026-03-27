@@ -159,7 +159,6 @@ O modelo requer operação em **tempo real**, com baixa latência e alta disponi
  
 - [ ] Implementar a API REST com FastAPI
 - [ ] Containerizar com Docker
-- [ ] Adicionar gráficos de curva ROC e matriz de confusão ao README
 - [ ] Avaliar modelos com validação temporal (evitar data leakage)
 - [ ] Explorar XGBoost e LightGBM como alternativas
  
